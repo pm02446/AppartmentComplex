@@ -2,7 +2,7 @@
 
 $dbHost = "localhost";
 $dbUserName = "root";
-$dbPassword = "";
-$db = "aptComplex";
+$dbPassword = "root";
+$db = "aptcomplex";
 
 ?>

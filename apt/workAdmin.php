@@ -21,6 +21,11 @@ if(!isset($_SESSION['user_id']) || !isset($_SESSION['logged_in']) || $_SESSION['
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script>
+			// jquery code to update the table
+			
+		</script>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">

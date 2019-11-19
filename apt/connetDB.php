@@ -14,4 +14,4 @@ catch(PDOException $e){
 }
 
 //query to use database.
-$conn->query("use aptComplex");
+$conn->query("use aptcomplex");

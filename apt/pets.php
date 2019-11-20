@@ -96,10 +96,14 @@ if(!isset($_SESSION['user_id']) || !isset($_SESSION['logged_in']) || $_SESSION['
 								?>
                 
 
-
+<form action="removepet.php" method="POST">
         <div><br>
-            <input type="submit" name="tb" value="Remove Pet" onclick="return foo();" />
-        </div>
+
+<input type="text" name="num" placeholder="Pet Id"><br><br>
+            <input type="submit" name="tb" value="Remove Pet"/>
+
+
+</form>
 
 <script>
 function foo(){

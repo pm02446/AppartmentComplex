@@ -31,7 +31,7 @@ else{
           // echo"name already exists";
             //  exit('not valid userName');
          // }
-        //else
+        //elsexs
            //{
         
 	//stores query in variable.
@@ -64,6 +64,9 @@ else{
         //$statement  = $conn->prepare($q)
         //$statement->bindvalue(1,$petId,PDO::PARAM_STR)
         //$statement->execute
+    
+        
+        
 	header('location:pets.php');
 		die;
 	}
